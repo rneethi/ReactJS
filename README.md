@@ -1,2 +1,4 @@
 # ReactJS
-Example projects using Reactjs and Redux Counter Calc 
+Example projects using Reactjs and Redux
+Counter
+Calc 
