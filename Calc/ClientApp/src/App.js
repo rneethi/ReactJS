@@ -1,8 +1,10 @@
 ﻿import React, { Component } from 'react';
 
+import Calc from './Action/CalcAction';
+
 class App extends Component {
     render() {
-        return "null";
+        return <Calc />
     }
 }
 
