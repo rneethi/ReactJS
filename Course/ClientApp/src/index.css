@@ -1,0 +1,46 @@
+html body {
+    margin-top: 20px;
+    height: 100%
+}
+
+li.menu {
+    display: inline;
+    padding: 10px;
+}
+
+a:active {
+    background-color: blue;
+    border: 18px;
+}
+
+
+.card {
+    padding: 20px, 15px, 20px, 0px;
+    border-bottom: 2px solid #e6e6e6;
+    width: 50%;
+}
+
+.courseCard {
+    display: flex;
+    justify-content: left;
+    align-items: initial;
+    width: 100%;
+    padding: 20px, 15px, 20px, 0px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.courseCardChildDiv {
+    display: inline-block;
+    justify-content: center;
+    padding: 10px;
+    vert-align: top;
+}
+
+.courCardHint {
+    padding: 3px;
+}
+
+
+.checked {
+    color: orange;
+}
