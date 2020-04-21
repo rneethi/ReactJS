@@ -13,11 +13,26 @@ a:active {
     border: 18px;
 }
 
+.parentCourseCard {
+    display: inline-block;
+}
 
 .card {
     padding: 20px, 15px, 20px, 0px;
     border-bottom: 2px solid #e6e6e6;
     width: 50%;
+}
+
+    .card:hover {
+        border: .6px solid;
+    }
+
+        .card:hover .showDetailedView {
+            display: block;
+        }
+
+.showDetailedViewDefault {
+    display: none;
 }
 
 .courseCard {
@@ -31,9 +46,7 @@ a:active {
 
 .courseCardChildDiv {
     display: inline-block;
-    justify-content: center;
     padding: 10px;
-    vert-align: top;
 }
 
 .courCardHint {
